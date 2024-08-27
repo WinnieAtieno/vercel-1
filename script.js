@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const catGallery = document.getElementById('cat-gallery');
 
-    fetch('https://json-server-vercel-82hz.vercel.app/cats')
+    fetch('https://cats-two-lake.vercel.app/cats')
         .then(response => response.json())
         .then(data => {
             data.forEach(cat => {
